@@ -267,10 +267,10 @@ Blob.getImage = function(url) {
 };
 
 Blob.images = {
-    player    : Blob.getImage('https://thx-timmy.ml/meta/2.jpg'),
-    smaller   : Blob.getImage('https://thx-timmy.ml/meta/4.jpg'),
-    bigger    : Blob.getImage('https://thx-timmy.ml/meta/8.jpg'),
-    highlight : Blob.getImage('https://thx-timmy.ml/meta/16.jpg')
+    player    : Blob.getImage('assets/c.png'),
+    smaller   : Blob.getImage('assets/b.png'),
+    bigger    : Blob.getImage('assets/a.png'),
+    highlight : Blob.getImage('assets/highlight.png')
 };
 
 // Calculates mass based on radius (effectively the circle's area)
